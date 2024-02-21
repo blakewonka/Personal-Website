@@ -1,0 +1,39 @@
+body{
+    min-height: 100dvh;
+}
+  
+  ul{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:1rem;
+    margin-inline: auto;
+    transform: translateY(-130px);
+    list-style: none;
+  }
+  a{
+    display:inline-block;
+  }
+
+  main{
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  :root {
+    --bg-color: white; /* Light mode default */
+    --text-color: black; /* Light mode default */
+    /* ...other theme variables */
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #222; /* Dark mode override */
+        --text-color: #fff; /* Dark mode override */
+        /* ...other theme overrides */
+    }
+}

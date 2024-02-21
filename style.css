@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdfbf6; /* Set default background color */
+    color: #333; /* Set default text color */
+  }
+
+  main {
+    text-align: center;
+  }
+
+  /* Dark mode */
+  body.dark-mode {
+    background-color: #333; /* Set dark mode background color */
+    color: #fdfbf6; /* Set dark mode text color */
+  }
+
+  body.dark-mode a {
+    color: #9ef7ff; /* Set dark mode link color */
+  }
+
+  footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .toggle-button{
+    border:none;
+    padding:9px 14px;
+    background-color:#8CB9BD;
+    border-radius:8px;
+  }
+
+  
